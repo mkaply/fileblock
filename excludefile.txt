@@ -1,0 +1,8 @@
+.DS_Store
+*.kpf
+buildit.sh
+excludefile.txt
+idls
+update.rdf
+update.rdf.orig
+README.txt
