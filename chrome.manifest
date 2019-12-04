@@ -1,4 +1,4 @@
+resource fileblock modules/
 component {cbea9627-60c0-4718-8545-72a6c3c4b8a3} components/fileBlockService.js
 contract @kaply.com/fileblock-service;1 {cbea9627-60c0-4718-8545-72a6c3c4b8a3}
-category content-policy policy @kaply.com/fileblock-service;1
 category profile-after-change FileBlock @kaply.com/fileblock-service;1

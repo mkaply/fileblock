@@ -6,11 +6,12 @@ It is not 100% foolproof, but it covers most cases.
 It prevents the loading of files within the browser and removes all the UI
 associated with opening files.
 
-The best way to use it is with the CCK2. Create a directory called "bundles" under the CCK2
+The only way to use it is with the CCK2. Create a directory called "bundles" under the CCK2
 directory. Then create a directory called fileblock in that directory.
-Unzip the XPI into that directory. (It's just a zip file.)
 
-If you would like to allow certain files, you can modify fileBlockService.js.
+Unzip the ZIP into that directory. (It's just a zip file.)
+
+If you would like to allow certain files, you can modify fileBlockModule.js.
 
 To access fileBlockService.js, unzip the XPI file using a standard zip program.
 
@@ -54,7 +55,3 @@ FileBlock is a product of Kaply Consulting. We provide other products to help yo
 customize Firefox like the CCK2. We also provide consulting services.
 
 For more information, go to http://mike.kaply.com.
-
-And if this extension has benefited you or your organization, please consider 
-puchasing support for the CCK2 (http://mike.kaply.com/cck2/) or making a donation
-(https://addons.mozilla.org/en-US/firefox/addon/cck2wizard/developers).
